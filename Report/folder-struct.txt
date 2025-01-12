@@ -1,0 +1,32 @@
+ 2024_uestc_autlab/    # Project structure that can be imported into Vivado
+│   ├── __pycache__
+│   ├── data/
+│   │   ├── coco/
+│   │   ├── data_coco_test/
+│   │   │   └── annotations.json
+│   │   ├── data_coco_train/
+│   │   ├── data_coco_valid/
+│   ├── adder4bitfull.dig
+│   ├── buffer4bit.dig
+│   └── ...
+├── images/                   # Circuit diagram or simulation waveform
+│   ├── adder2bit_tb.png
+│   └── ...
+├── Requirement/              # The coursework requirements from UofG
+│   └── ...
+├── vhdl/                     # All source files in VHDL language
+│   ├── behavior/
+│   │   ├── adder2bit.vhdl
+│   │   └── ...
+│   ├── dataflow/
+│   │   ├── adder2bit.vhdl
+│   │   └── ...
+│   ├── structural/
+│   │   ├── adder2bit.vhdl
+│   │   └── ...
+│   ├── testbench/
+│   │   ├── adder2bit_tb.vhdl
+│   │   └── ...
+│   └── Makefile
+├── README.md
+└── report.pdf                # Detailed report in PDF
